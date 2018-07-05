@@ -40,7 +40,7 @@
     "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write ",
     "precommit": "lint-staged",
     "prepublish": "make",
-    "postinstall": "npm run build"
+    "postinstall": "make"
   },
   "lint-staged": {
     "src/**/*.js": "eslint",
